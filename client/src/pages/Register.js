@@ -37,21 +37,21 @@ function Register() {
               label="Username"
               rules={[{ required: true }]}
             >
-              <Input />
+              <Input/>
             </Form.Item>
             <Form.Item
               name="password"
               label="Password"
-              rules={[{ required: true }]}
+              rules={[{ required: false }]}
             >
-              <Input />
+              <Input type="password" />
             </Form.Item>
             <Form.Item
               name="cpassword"
               label="Confirm Password"
               rules={[{ required: true }]}
             >
-              <Input />
+              <Input type="password" />
             </Form.Item>
 
             <button className="btn1 mt-2 mb-3">Register</button>
